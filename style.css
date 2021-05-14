@@ -1,4 +1,8 @@
 /* Générale */
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Roboto, sans-serif;
 }
@@ -64,4 +68,69 @@ nav ul li a {
     color: white;
     font-weight: normal;
 }
+
+/* Presentation, Services et Avis */
+#presentation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#presentation p {
+    width: 492px;
+    text-align: center;
+}
+
+#services {
+    width: 492px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#services article {
+    text-align: center;
+    width: 33%;
+    margin: 25px 0 20px 0;
+}
+
+#services article img {
+    width: 32px;
+}
+
+#services article h2 {
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+
+#services article p {
+    width: 100%;
+    font-size: 0.5em;
+}
+
+#avis {
+    width: 492px;
+}
+
+#avis .quote {
+    width: 392px;
+    font-size: 0.8em;
+}
+
+.quote::before {
+    content: '"';
+}
+.quote::after {
+    content: '"';
+}
+
+#avis p {
+    width: 392px;
+    font-size: 0.5em;
+    color: grey;
+}
+
+
+
+
 
