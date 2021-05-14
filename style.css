@@ -4,6 +4,7 @@
 }
 
 body {
+    margin: 0;
     font-family: Roboto, sans-serif;
 }
 
@@ -128,6 +129,32 @@ nav ul li a {
     width: 392px;
     font-size: 0.5em;
     color: grey;
+}
+
+/* Footer */
+footer {
+    background-color: #5b359d;
+    color: white;
+}
+
+h5 {
+    text-align: center;
+}
+
+#reseaux {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#reseaux svg {
+    margin-right: 40px;
+}
+
+#liens {
+    display: flex;
+    justify-content: space-around;
 }
 
 
