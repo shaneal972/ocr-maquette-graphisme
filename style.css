@@ -8,6 +8,10 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+ul {
+    list-style: none;
+}
+
 #container {
     width: 960px;
     margin: auto;
@@ -27,7 +31,6 @@ nav img {
 
 nav ul {
     display: flex;
-    list-style: none;
 }
 
 nav ul li {
@@ -91,7 +94,7 @@ nav ul li a {
 
 #services article {
     text-align: center;
-    width: 33%;
+    width: 30%;
     margin: 25px 0 20px 0;
 }
 
@@ -125,11 +128,16 @@ nav ul li a {
     content: '"';
 }
 
+blockquote {
+    margin-bottom: 10px;
+}
+
 #avis p {
     width: 392px;
     font-size: 0.5em;
     color: grey;
 }
+
 
 /* Footer */
 footer {
@@ -139,6 +147,9 @@ footer {
 
 h5 {
     text-align: center;
+    padding-top: 20px;
+    font-size: 0.8em;
+    margin-top: 0;
 }
 
 #reseaux {
@@ -155,6 +166,24 @@ h5 {
 #liens {
     display: flex;
     justify-content: space-around;
+}
+
+#liens p {
+    opacity: 0.6;
+    font-size: 0.7em;
+}
+
+#liens ul li {
+    list-style-type: disc;
+}
+
+#liens ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#liens address {
+    padding-left: 35px;
 }
 
 
